@@ -9,7 +9,7 @@ end
 end
 
 def long_planeteer_calls(calls)
-  calls.include do |chant|
+  calls.include? do |chant|
     chant.length >=5
   end
 end
