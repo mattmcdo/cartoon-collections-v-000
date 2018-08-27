@@ -10,7 +10,8 @@ end
 
 def long_planeteer_calls(calls)
 calls.find do |chant|
-  chant.letters_length(4)
+  if chant.length >  4
+    true
 end
 end
 
