@@ -10,7 +10,7 @@ end
 
 def long_planeteer_calls(calls)
 calls.find do |chant|
-  chant.length(4)
+  chant.letters_length(4)
 end
 end
 
