@@ -9,7 +9,7 @@ end
 end
 
 def long_planeteer_calls(calls)
-  calls.find {|chant| chant.length}
+  calls.find {|chant| chant.length > 4}
 end
 
 def find_the_cheese# code an argument here
