@@ -8,8 +8,8 @@ veggies.map do |veggie|
 end
 end
 
-def long_planeteer_calls(calls)
-  calls.include?("#{chant}".length >=5)
+def long_planeteer_calls(calls,index)
+  calls.include?(calls[index].length >=5)
   end
 
 def find_the_cheese# code an argument here"
