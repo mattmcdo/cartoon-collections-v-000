@@ -8,7 +8,7 @@ veggies.map do |veggie|
 end
 end
 
-def long_planeteer_calls(calls,index)
+def long_planeteer_calls(calls)
   calls.include?(calls[index].length >=5)
   end
 
